@@ -3,10 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  server: {
-    host: true, // Esto expone el proyecto a tu IP local
-    port: 5173,
-    base: './'
-  },
+  base: 'EIV-catamarca.github.io/', //nombre del repo
   plugins: [react()],
 })
